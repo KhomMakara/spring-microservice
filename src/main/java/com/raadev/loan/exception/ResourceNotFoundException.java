@@ -1,4 +1,4 @@
-package com.raadev.accounts.exception;
+package com.raadev.loan.exception;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;
 

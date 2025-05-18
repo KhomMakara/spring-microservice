@@ -1,6 +1,6 @@
-package com.raadev.accounts.exception;
+package com.raadev.loan.exception;
 
-import com.raadev.accounts.dto.ErrorResponseDto;
+import com.raadev.loan.dto.ErrorResponseDto;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.HttpStatusCode;

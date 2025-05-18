@@ -1,18 +1,18 @@
-package com.raadev.accounts.mapper;
+package com.raadev.loan.mapper;
 
-import com.raadev.accounts.dto.AccountsDto;
-import com.raadev.accounts.entity.Accounts;
+import com.raadev.loan.dto.LoansDto;
+import com.raadev.loan.entity.Loans;
 
-public class AccountsMapper {
+public class LoansMapper {
 
-    public static AccountsDto mapToAccountsDto(Accounts accounts, AccountsDto accountsDto) {
+    public static LoansDto mapToAccountsDto(Loans loan, LoansDto accountsDto) {
         accountsDto.setAccountNumber(accounts.getAccountNumber());
         accountsDto.setAccountType(accounts.getAccountType());
         accountsDto.setBranchAddress(accounts.getBranchAddress());
         return accountsDto;
     }
 
-    public static Accounts mapToAccounts(AccountsDto accountsDto, Accounts accounts) {
+    public static Accounts mapToAccounts(LoansDto accountsDto, Accounts accounts) {
         accounts.setAccountNumber(accountsDto.getAccountNumber());
         accounts.setAccountType(accountsDto.getAccountType());
         accounts.setBranchAddress(accountsDto.getBranchAddress());

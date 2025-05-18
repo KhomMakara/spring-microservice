@@ -1,4 +1,4 @@
-package com.raadev.accounts.dto;
+package com.raadev.loan.dto;
 
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.AllArgsConstructor;

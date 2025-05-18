@@ -1,8 +1,8 @@
-package com.raadev.accounts;
+package com.raadev.loan.constants;
 
-public final class AccountsConstants {
+public final class LoansConstants {
 
-    private AccountsConstants() {
+    private LoansConstants() {
         // restrict instantiation
     }
 

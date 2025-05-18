@@ -1,8 +1,6 @@
-package com.raadev.accounts.service;
+package com.raadev.loan.service;
 
-import com.raadev.accounts.dto.CustomerDto;
-
-public interface IAccountService {
+public interface ILoanService {
 
     /**
      *
